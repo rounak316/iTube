@@ -1,0 +1,112 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+
+
+    tools:context="hub.rgpv.com.iTube.tartingScreenFragment"
+    tools:showIn="@layout/activity_tarting_screen">
+
+
+
+
+<RelativeLayout
+    android:layout_centerInParent="true"
+    android:id="@+id/center"
+    android:background="@drawable/body_shape"
+android:paddingLeft="28dp"
+    android:paddingRight="28dp"
+    android:paddingBottom="50dp"
+    android:paddingTop="30dp"
+    android:layout_marginLeft="40dp"
+    android:layout_marginRight="40dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:tint="#ffffff"
+        android:background="@drawable/ring"
+        android:padding="8dp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/title"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo"
+    android:id="@+id/logo"
+
+        android:layout_width="50dp"
+        android:layout_height="50dp" />
+
+
+
+    <in.workarounds.typography.TextView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:font_name="font"
+        android:layout_alignParentTop="true"
+        android:id="@+id/title"
+        android:textSize="22sp"
+        android:layout_centerHorizontal="true"
+android:textStyle="bold"
+android:layout_marginTop="5dp"
+        android:text="iTube"
+
+        android:textColor="#7a28a9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <in.workarounds.typography.TextView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:font_name="font"
+        android:id="@+id/desc"
+        android:textSize="15sp"
+
+        android:minLines="5"
+        android:layout_centerHorizontal="true"
+    android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:text="We are fetching the details. Please wait for a while!"
+        android:layout_below="@id/logo"
+        android:textColor="#7a28a9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>
+
+
+
+    <RelativeLayout
+
+        android:layout_alignParentBottom="true"
+
+android:clickable="true"
+        android:id="@+id/close"
+
+        android:layout_centerHorizontal="true"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        >
+
+
+        <ImageView
+            android:layout_centerInParent="true"
+        android:src="@drawable/cancel"
+            android:layout_margin="6dp"
+            android:id="@+id/progress_wheel"
+            android:layout_width="20dp"
+            android:layout_height="80dp"
+            />
+        <com.pnikosis.materialishprogress.ProgressWheel
+
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            app:matProg_barColor="#ffffff"
+            app:matProg_progressIndeterminate="true" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

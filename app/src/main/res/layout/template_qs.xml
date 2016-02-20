@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+
+
+
+    tools:context="hub.rgpv.com.iTube.tartingScreenFragment"
+    tools:showIn="@layout/activity_tarting_screen">
+
+
+
+
+    <ImageView
+        android:layout_margin="5dp"
+        android:layout_centerInParent="true"
+        android:id="@+id/left"
+        android:layout_alignParentLeft="true"
+        android:layout_width="5dp"
+        android:layout_height="5dp" />
+
+    <android.support.v4.view.ViewPager xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_toRightOf="@id/left"
+        android:id="@+id/vp"
+
+        android:layout_toLeftOf="@id/right"
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+    </android.support.v4.view.ViewPager>
+
+
+    <ImageView
+        android:layout_margin="5dp"
+        android:layout_centerInParent="true"
+        android:id="@+id/right"
+
+        android:layout_alignParentRight="true"
+        android:layout_width="5dp"
+        android:layout_height="5dp" />
+
+
+</RelativeLayout>
+

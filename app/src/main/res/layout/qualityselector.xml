@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+android:id="@+id/VI"
+
+
+        tools:context="hub.rgpv.com.iTube.tartingScreenFragment"
+        tools:showIn="@layout/activity_tarting_screen">
+
+
+
+
+        <ImageView
+            android:padding="4dp"
+            android:clickable="true"
+            android:src="@drawable/circle"
+            android:layout_margin="5dp"
+            android:layout_centerInParent="true"
+            android:id="@+id/left2"
+            android:layout_alignParentLeft="true"
+            android:layout_width="12dp"
+            android:layout_height="12dp" />
+
+        <hub.rgpv.com.iTube.VP xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_toRightOf="@id/left2"
+            android:id="@+id/vp2"
+            android:overScrollMode="never"
+            android:layout_toLeftOf="@+id/right2"
+            android:layout_width="match_parent"
+            android:layout_height="80dp">
+
+        </hub.rgpv.com.iTube.VP>
+
+
+        <ImageView
+            android:clickable="true"
+            android:padding="4dp"
+            android:src="@drawable/circle"
+            android:layout_margin="5dp"
+            android:layout_centerInParent="true"
+            android:id="@+id/right2"
+
+            android:layout_alignParentRight="true"
+            android:layout_width="12dp"
+            android:layout_height="12dp" />
+
+
+    </RelativeLayout>
+
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+
+        android:id="@+id/AU"
+
+        tools:context="hub.rgpv.com.iTube.tartingScreenFragment"
+        tools:showIn="@layout/activity_tarting_screen">
+
+
+
+
+        <ImageView
+            android:clickable="true"
+            android:padding="4dp"
+            android:src="@drawable/circle"
+            android:layout_margin="5dp"
+            android:layout_centerInParent="true"
+            android:id="@+id/left"
+            android:layout_alignParentLeft="true"
+            android:layout_width="12dp"
+            android:layout_height="12dp" />
+
+        <hub.rgpv.com.iTube.VP xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_toRightOf="@id/left"
+            android:id="@+id/vp"
+            android:overScrollMode="never"
+            android:layout_toLeftOf="@+id/right"
+            android:layout_width="match_parent"
+            android:layout_height="80dp">
+
+        </hub.rgpv.com.iTube.VP>
+
+
+        <ImageView
+            android:clickable="true"
+android:padding="4dp"
+
+            android:src="@drawable/circle"
+            android:layout_margin="5dp"
+            android:layout_centerInParent="true"
+            android:id="@+id/right"
+
+            android:layout_alignParentRight="true"
+            android:layout_width="12dp"
+            android:layout_height="12dp" />
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>
+
